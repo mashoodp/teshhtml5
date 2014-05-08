@@ -1,0 +1,109 @@
+<!-- (1) Indicates the type of document in use in this case it is 
+a html document 
+-->
+
+ <!DOCTYPE html> 
+ 
+ <!--(2) the html tag: 
+	the beginning tag contains the language for SEO which 
+	is equal to English in this case
+ -->
+ 
+ <html lang="en">
+ 
+<head>
+ <!--  (3) H E A D 
+ =====================================================================
+ Here begins the head 
+the head will contain a few things 
+3.1) TITLE: this appears on status bar of web page
+
+3.2) META CHARSET: for including the type of encoding which in this case 
+   is UTF 8
+
+3.3)LINK : to link to the css file in the folder
+	3a)REL="stylesheet": link to the type of file i.e CSS file
+	3b) href to the name of the file in this case "style.css"
+    3c) and type of css as well in this case it is itxt format so
+		"text/css"
+		
+3.4) META NAME= or meta queries i.e. code to make the web page responsive 
+	4a) "viewport" tells the browser this page should be responsive
+	4b) content tells the browser to keep the width to device i.e
+     	phone or tablet width with initial scale 1.0
+		
+
+3.5) JS FILE: link to javascript file is added here e.g "script.js"
+
+		This concludes the head section 
+		
+		
+======================================================================== 
+ -->
+<!-- 
+-->  
+ 
+ 
+ <!--3.1: TITLE --> 
+ <title> tech101 info Beta </title>
+ 
+ <!--3.2: META CHARSET -->
+ <meta charset="utf-8" />
+ 
+ <!--3.3: CSS link  -->
+ <link rel="stylesheet" href="style.css" type="text/css" />
+ 
+ <!--3.4: META QUERIES FOR RESPONSIVE WEB PAGE -->
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 
+ </head>
+ 
+<body>
+ <!-- (4) B O D Y 
+ =======================================================================
+ Here begins the body 
+  
+ In this example the body will have three main containers:
+ 
+ 4.1) HEADER: this is where the logo etc goes or maybe a sideshow 
+	  of pics also it contains the navigation i.e the diffrent page names.
+-->
+ 
+	<header class= "main header">
+		<img src="img/logo.gif">
+			<nav><ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>	
+			<ul></nav>
+		
+<!-- 
+ -->	
+	<div class	
+<!--
+
+ 4.2) MAIN CONTENT
+		4.2.1) Main Content Area
+		
+		
+-->		
+<!--		
+		4.2.2) Side Bar
+ -->
+ 
+ <!--
+ 4.3) Footer
+ 
+ -->
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ </body>
+ 
+ 
+ </html>
